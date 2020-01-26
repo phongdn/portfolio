@@ -63,3 +63,6 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# Don't push node_modules
+./my-portfolio/node_modules/*

@@ -1,0 +1,47 @@
+.banner {
+    background-color: rgb(25, 118, 210);
+    height: 60px;
+    width: auto;
+    margin: -8px;
+}
+
+.banner div {
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left; 
+    color: rgb(255, 255, 255);
+}
+
+.banner span {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 42%;
+    color: rgb(0, 0, 0);
+}
+
+.intro {
+    margin-top: 20px;
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.intro img {
+    height: 200px;
+    width: 170px;
+}
+
+.leftWrapper {
+    margin: 0px;
+    display: inline-block;
+}
+
+.rightWrapper {
+    margin: 10px;
+    display: inline-block;
+}

@@ -1,0 +1,19 @@
+<div class='banner'>
+    <mat-toolbar>
+        <button><mat-icon>menu</mat-icon></button>
+        <span>Phong Nguyen</span>
+    </mat-toolbar>
+    <mat-sidenav-container>
+        <mat-sidenav>
+            <mat-nav-list>
+                <a mat-list-item *ngFor="let title of sideNav">{{title}}</a>
+            </mat-nav-list>
+        </mat-sidenav>
+    </mat-sidenav-container>
+</div>
+<div class='intro'>
+    <span class='leftWrapper'>
+        <img src="../assets/photos/professionalPhoto.JPG" alt="Portrait of Phong">
+    </span>
+    <span class='rightWrapper'><p>Phong Nguyen</p> </span>
+</div>
